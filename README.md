@@ -13,7 +13,7 @@ I also created a Global Security group for each department and implemented a fla
 Finally, I tested the environment by investigating and resolving ticket NMG-0047, which involved multiple configuration problems affecting an HR Payroll Specialist.
 ## Video Walkthrough
 
-Video walkthrough: Coming soon — project demonstration will be added here
+🎥 [Watch My Active Directory Project Walkthrough](https://youtu.be/pg_NZQtr96s) 
 
 The walkthrough will demonstrate the NMG.com domain, department OUs, security groups, user provisioning, RBAC assignments, and my investigation and resolution of ticket NMG-0047.
 
