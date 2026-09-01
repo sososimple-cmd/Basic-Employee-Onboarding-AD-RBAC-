@@ -36,7 +36,7 @@ Updated her department from Operations to HR.
 These changes were made to ensure that Julissa’s account information and role-based access matched her HR Payroll Specialist position.
 
 VERIFICATION:
-Refreshed Group Policy and had Julissa sign out and sign back in. Confirmed that her HR policies and mapped drives were applied correctly. Verified that she could access the required HR shared resources without receiving an “Access Denied” error. Also confirmed that the Organization tab displayed her correct job title and department.
+Confirmed that Julissa’s account was located in the HR OU and that she was a member of the HR-Users security group. Verified that she was no longer a member of Operations-Users. Also confirmed that the Organization tab displayed the correct job title and department. Julissa’s Active Directory configuration now matched the established configuration for an HR employee.
 
 DATE RESOLVED:
 August 31, 2026
