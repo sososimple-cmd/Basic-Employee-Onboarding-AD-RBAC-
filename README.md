@@ -6,20 +6,20 @@ Northstar Medical Group inherited an Active Directory environment that had been 
 
 ## Solution Overview
 
-I built the NMG.com domain from scratch using Windows Server and promoted NMG-DC01 to a domain controller. I created department-based OUs for Finance, HR, IT, and Operations to keep identities organized and support consistent policy application.
+I built the NMG.com domain from scratch using Windows Server 2019 and promoted NMG-DC01 to a domain controller. I created department-based OUs for Finance, HR, IT, and Operations to keep identities organized and support consistent policy application.
 
-I also created a Global Security group for each department and implemented a flat RBAC model to assign access based on business roles. I provisioned 15 fictional employee identities using consistent usernames, UPNs, job titles, and department attributes. Each user was placed in the correct OU and assigned to the appropriate security group.
+I also created a global security group for each department and implemented a flat RBAC model to assign access based on business roles. I provisioned 15 fictional employee identities using consistent usernames, UPNs, job titles, and department attributes. Each user was placed in the correct OU and assigned to the appropriate security group.
 
 Finally, I tested the environment by investigating and resolving ticket NMG-0047, which involved multiple configuration problems affecting an HR Payroll Specialist.
 ## Video Walkthrough
 
 🎥 [Watch My Active Directory Project Walkthrough](https://youtu.be/pg_NZQtr96s) 
 
-The walkthrough will demonstrate the NMG.com domain, department OUs, security groups, user provisioning, RBAC assignments, and my investigation and resolution of ticket NMG-0047.
+The walkthrough demonstrates the NMG.com domain, department OUs, security groups, user provisioning, RBAC assignments, and my investigation and resolution of ticket NMG-0047.
 
 ## Tools Used
 
-* Windows Server 2022
+* Windows Server 2019
 
 * Active Directory Domain Services
 
