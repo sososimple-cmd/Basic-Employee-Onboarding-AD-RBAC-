@@ -1,7 +1,22 @@
 Total users created: 15
-Finance users: dchen, kmills, rhayes, lpark
-HR users: storres, jwhitfield, mgrant
-IT users: mjohnson, ppatel, tbrooks, acoleman
-Operations users: bfoster, jcooper, crivera, nross
-Confirm all users assigned to correct security groups
-Date completed: 8/30/2026
+
+Finance users (4):
+dchen, kmills, rhayes, lpark
+
+HR users (4):
+storres, jwhitfield, mgrant, jcooper
+
+IT users (4):
+mjohnson, ppatel, tbrooks, acoleman
+
+Operations users (3):
+bfoster, crivera, nross
+
+Verification:
+Confirmed that all users were placed in the correct departmental OUs and assigned to the appropriate security groups.
+
+Date completed:
+August 30, 2026
+
+Incident correction:
+On August 31, 2026, jcooper was moved from the Operations OU to the HR OU and reassigned from Operations-Users to HR-Users under ticket NMG-0047.
